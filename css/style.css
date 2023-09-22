@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    flex-direction: column;
+    background-color: #f0f0f0; /* Color de fondo suave */
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.autores {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.calculadora {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Ancho de la calculadora */
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px; /* Tamaño de fuente más grande */
+    border: 1px solid #ccc; /* Borde para un aspecto elegante */
+    border-radius: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px; /* Tamaño de fuente ligeramente más grande */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-salir {
+    background-color: #DC3545;
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+
+.btn-cambiar-base {
+    background-color: #28A745;
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+
+#resultado {
+    font-size: 20px; /* Tamaño de fuente más grande */
+    font-weight: bold;
+    margin-top: 15px; /* Mayor margen superior */
+}
